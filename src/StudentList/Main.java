@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        HashSet<String> hashSet = new HashSet<>();
         StudentCheck studentCheck = new StudentCheck();
         System.out.println("Введите информацию о студенте: ФИО, номер группы, номер студенческого билета");
         while (true) {
